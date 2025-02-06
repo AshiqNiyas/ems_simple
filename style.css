@@ -1,0 +1,74 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: white;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 8px;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+table{
+    margin-top:10px;
+    text-align: center;
+}
+
+table th{
+    background-color: lightgray;
+}
+
+table td{
+    background-color: gray;
+    color: white;
+}
+
+
+form input{
+    padding: 8px 0;
+}
+
+.addbtn{
+    padding: 8px 0;
+    background-color: lightgreen;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media(min-width:400px){
+    table{
+        width: 80%;
+    }
+    form{
+        width: 80%;
+    }
+}
+
+@media(min-width:740px){
+    table{
+        width: 70%;
+    }
+    form{
+        width: 70%;
+    }
+}
+
+@media(min-width:1200px){
+    table{
+        width: 700px;
+    }
+    form{
+        width: 700px;
+    }
+}
